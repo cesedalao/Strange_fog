@@ -1,0 +1,566 @@
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:21 POST http://127.0.0.1:52859/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[connectionpool.py:227 ] [DEBUG] 2021-07-05 14:23:21 Starting new HTTP connection (1): 127.0.0.1:52859
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:22 http://127.0.0.1:52859 "POST /session HTTP/1.1" 200 752
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:22 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:22 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/timeouts {"implicit": 10000}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:22 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/timeouts HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:22 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:22 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/window/maximize {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:22 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/window/maximize HTTP/1.1" 200 51
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:22 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:22 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/url {"url": "https://h.jkcrm.cn/login.do"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:23 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/url HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:23 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:23 开始定位('xpath', '//*[@id="phoneNumber"]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:23 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"phoneNumber\"]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:23 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:23 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:23 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5b254b2a-6bda-419d-9b15-db95046db45c/clear {"id": "5b254b2a-6bda-419d-9b15-db95046db45c"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:23 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5b254b2a-6bda-419d-9b15-db95046db45c/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:23 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:23 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5b254b2a-6bda-419d-9b15-db95046db45c/value {"text": "19131222371", "value": ["1", "9", "1", "3", "1", "2", "2", "2", "3", "7", "1"], "id": "5b254b2a-6bda-419d-9b15-db95046db45c"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:23 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5b254b2a-6bda-419d-9b15-db95046db45c/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:23 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:23 开始定位('xpath', '//*[@id="getCode"]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:23 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"getCode\"]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:23 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:23 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:23 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/2af1a06c-5f1b-4a23-b392-490f4e7b1663/click {"id": "2af1a06c-5f1b-4a23-b392-490f4e7b1663"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:23 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/2af1a06c-5f1b-4a23-b392-490f4e7b1663/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:23 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:53 开始定位('xpath', '//*[@id="loginButton"]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:53 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"loginButton\"]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:53 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:53 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:53 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/f21dcf20-dd66-4d27-bb02-232008c60734/click {"id": "f21dcf20-dd66-4d27-bb02-232008c60734"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:53 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/f21dcf20-dd66-4d27-bb02-232008c60734/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:53 Finished Request
+[test_wq.py:30  ] [ INFO] 2021-07-05 14:23:56 开始断言登录是否成功
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:56 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'\u540e\u53f0\u7ba1\u7406')]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:56 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:56 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:56 开始定位('xpath', '//*[@id="sideNavigationAccordion"]/li[1]/a/span[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:56 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"sideNavigationAccordion\"]/li[1]/a/span[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:56 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:56 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:56 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5471c1e3-8ebb-4079-8603-5a53763941df/click {"id": "5471c1e3-8ebb-4079-8603-5a53763941df"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:56 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5471c1e3-8ebb-4079-8603-5a53763941df/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:56 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:57 开始定位('xpath', '//*[@id="sideNavigationAccordion"]/li[3]/a/span[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:57 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"sideNavigationAccordion\"]/li[3]/a/span[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:57 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:57 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:57 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ea5f4f65-796f-4a2b-a005-ca198501ad1d/click {"id": "ea5f4f65-796f-4a2b-a005-ca198501ad1d"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:57 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ea5f4f65-796f-4a2b-a005-ca198501ad1d/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:57 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:57 开始定位('xpath', '//*[@id="navigationSubMenuGroup3"]/li[1]/a/span[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:57 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"navigationSubMenuGroup3\"]/li[1]/a/span[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:57 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:57 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:57 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/e0e24476-c083-4ed8-989d-c55988b770ee/click {"id": "e0e24476-c083-4ed8-989d-c55988b770ee"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:58 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/e0e24476-c083-4ed8-989d-c55988b770ee/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:58 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:58 开始定位('xpath', '//*[@id="keyWords"]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:58 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"keyWords\"]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:58 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:58 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:58 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/4ffffdec-97b7-4c43-8ec1-5677bf5f2702/clear {"id": "4ffffdec-97b7-4c43-8ec1-5677bf5f2702"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:58 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/4ffffdec-97b7-4c43-8ec1-5677bf5f2702/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:58 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:58 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/4ffffdec-97b7-4c43-8ec1-5677bf5f2702/value {"text": "\u4e91\u5343\u8f7d\u6d4b\u8bd5\u8d26\u53f7", "value": ["\u4e91", "\u5343", "\u8f7d", "\u6d4b", "\u8bd5", "\u8d26", "\u53f7"], "id": "4ffffdec-97b7-4c43-8ec1-5677bf5f2702"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:58 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/4ffffdec-97b7-4c43-8ec1-5677bf5f2702/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:58 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:59 开始定位('xpath', '//*[@id="searchButton"]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:59 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"searchButton\"]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:59 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:59 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:59 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/57206779-8fe7-4825-aa2f-28e7b92fcf1c/click {"id": "57206779-8fe7-4825-aa2f-28e7b92fcf1c"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:59 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/57206779-8fe7-4825-aa2f-28e7b92fcf1c/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:59 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:23:59 开始定位('xpath', '//*[@class="table table-striped table-hover table-condensed emay-base-table"]/tbody/tr[2]/td[13]/div/button[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:59 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@class=\"table table-striped table-hover table-condensed emay-base-table\"]/tbody/tr[2]/td[13]/div/button[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:59 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:59 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:23:59 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/435afb00-7542-44b4-ab5b-afff8192ecf6/click {"id": "435afb00-7542-44b4-ab5b-afff8192ecf6"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:23:59 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/435afb00-7542-44b4-ab5b-afff8192ecf6/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:23:59 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:00 开始定位('xpath', '//*[@id="tableRender"]/table/tbody/tr[2]/td[13]/div/ul/li[1]/a')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:00 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"tableRender\"]/table/tbody/tr[2]/td[13]/div/ul/li[1]/a"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:00 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:00 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:00 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/0b92299b-a853-4145-8383-314f2ac80894/click {"id": "0b92299b-a853-4145-8383-314f2ac80894"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:00 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/0b92299b-a853-4145-8383-314f2ac80894/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:00 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:01 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/window/handles {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:01 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/window/handles HTTP/1.1" 200 99
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:01 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:01 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/window {"handle": "CDwindow-931642DFE8A3EA9364521021FBE1C722"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:01 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/window HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:01 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:01 开始定位('xpath', "//*[contains(text(),'进入管理')]")的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:01 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'\u8fdb\u5165\u7ba1\u7406')]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:06 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:06 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:06 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/8fe5fe42-8d86-41d9-bbd0-62b197ce6ed7/click {"id": "8fe5fe42-8d86-41d9-bbd0-62b197ce6ed7"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:06 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/8fe5fe42-8d86-41d9-bbd0-62b197ce6ed7/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:06 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:07 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/window/handles {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:07 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/window/handles HTTP/1.1" 200 143
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:07 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:07 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/window {"handle": "CDwindow-C4CEBFCADF5A568BB0BDE0AA7AEAA83E"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:07 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/window HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:07 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:07 开始定位('xpath', '//*[@class="navbar-header bootstrap-top14-nav14"]/ul/li[7]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:07 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@class=\"navbar-header bootstrap-top14-nav14\"]/ul/li[7]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:09 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:09 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:09 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/b72d06f5-c13e-4eeb-8d63-4605851f3058/click {"id": "b72d06f5-c13e-4eeb-8d63-4605851f3058"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:09 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/b72d06f5-c13e-4eeb-8d63-4605851f3058/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:09 Finished Request
+[test_wq.py:44  ] [ INFO] 2021-07-05 14:24:10 开始断言进入云千载测试账号是否成功
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:10 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'\u7ebf\u4e0b\u95e8\u5e97')]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:10 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:10 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:10 开始定位('xpath', '//*[@id="home-wrap"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:10 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:11 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:11 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:11 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ca9fcd5f-7df2-40e3-bfec-26a286af9952/click {"id": "ca9fcd5f-7df2-40e3-bfec-26a286af9952"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:11 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ca9fcd5f-7df2-40e3-bfec-26a286af9952/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:11 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[1]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:13 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[1]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:13 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:13 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:13 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/48b06856-e4b7-4704-9fd8-01f823711696/click {"id": "48b06856-e4b7-4704-9fd8-01f823711696"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:13 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/48b06856-e4b7-4704-9fd8-01f823711696/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:13 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:14 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[1]/div/div/div[2]/span/span/i')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:14 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[1]/div/div/div[2]/span/span/i"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:14 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:14 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:14 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/a0f4edaf-35fd-4299-951d-418d99e18648/click {"id": "a0f4edaf-35fd-4299-951d-418d99e18648"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:14 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/a0f4edaf-35fd-4299-951d-418d99e18648/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:14 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:15 开始定位('xpath', '/html/body/div[3]/div[1]/div[1]/ul/li[3]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:15 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "/html/body/div[3]/div[1]/div[1]/ul/li[3]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:15 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:15 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:15 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/e8e57f22-dd1f-44ba-94b4-b7108cbbbd72/click {"id": "e8e57f22-dd1f-44ba-94b4-b7108cbbbd72"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:15 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/e8e57f22-dd1f-44ba-94b4-b7108cbbbd72/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:15 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:15 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[1]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:15 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[1]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:15 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:15 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:15 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ec4cd685-c0e5-4d84-ac0d-f9827fa165ff/click {"id": "ec4cd685-c0e5-4d84-ac0d-f9827fa165ff"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:15 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ec4cd685-c0e5-4d84-ac0d-f9827fa165ff/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:15 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:16 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[2]/div/div[1]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:16 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[2]/div/div[1]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:16 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:16 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:16 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/d25c4e8c-7395-4149-9bc3-1299e7264f55/clear {"id": "d25c4e8c-7395-4149-9bc3-1299e7264f55"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:16 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/d25c4e8c-7395-4149-9bc3-1299e7264f55/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:16 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:16 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/d25c4e8c-7395-4149-9bc3-1299e7264f55/value {"text": "\u6d4b\u8bd512142410", "value": ["\u6d4b", "\u8bd5", "1", "2", "1", "4", "2", "4", "1", "0"], "id": "d25c4e8c-7395-4149-9bc3-1299e7264f55"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:16 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/d25c4e8c-7395-4149-9bc3-1299e7264f55/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:16 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:16 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[3]/div/div[1]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:16 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[3]/div/div[1]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:16 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:16 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:16 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/a0ea19d1-d961-43e9-8ad0-7c150688caf4/clear {"id": "a0ea19d1-d961-43e9-8ad0-7c150688caf4"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:16 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/a0ea19d1-d961-43e9-8ad0-7c150688caf4/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:16 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:16 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/a0ea19d1-d961-43e9-8ad0-7c150688caf4/value {"text": "\u6d4b\u8bd5\u5e97142410", "value": ["\u6d4b", "\u8bd5", "\u5e97", "1", "4", "2", "4", "1", "0"], "id": "a0ea19d1-d961-43e9-8ad0-7c150688caf4"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:16 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/a0ea19d1-d961-43e9-8ad0-7c150688caf4/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:16 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:17 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[7]/div/div[1]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:17 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[7]/div/div[1]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:17 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:17 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:17 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/510804c4-6532-4455-b7ff-4f725469a9a1/clear {"id": "510804c4-6532-4455-b7ff-4f725469a9a1"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:17 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/510804c4-6532-4455-b7ff-4f725469a9a1/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:17 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:17 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/510804c4-6532-4455-b7ff-4f725469a9a1/value {"text": "\u5929\u5b89\u95e8", "value": ["\u5929", "\u5b89", "\u95e8"], "id": "510804c4-6532-4455-b7ff-4f725469a9a1"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:17 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/510804c4-6532-4455-b7ff-4f725469a9a1/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:17 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:17 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[8]/div/div/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:17 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[8]/div/div/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:17 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:17 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:17 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/76b656e6-3f67-48b4-83b0-612bd9ce887c/clear {"id": "76b656e6-3f67-48b4-83b0-612bd9ce887c"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:17 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/76b656e6-3f67-48b4-83b0-612bd9ce887c/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:17 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:17 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/76b656e6-3f67-48b4-83b0-612bd9ce887c/value {"text": "\u6d4b\u8bd5\u5927\u4f6c123", "value": ["\u6d4b", "\u8bd5", "\u5927", "\u4f6c", "1", "2", "3"], "id": "76b656e6-3f67-48b4-83b0-612bd9ce887c"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:17 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/76b656e6-3f67-48b4-83b0-612bd9ce887c/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:17 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:18 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[9]/div/div[1]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:18 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[9]/div/div[1]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:18 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:18 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:18 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/b7578f31-eeaf-485e-b53d-7df22645849b/clear {"id": "b7578f31-eeaf-485e-b53d-7df22645849b"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:18 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/b7578f31-eeaf-485e-b53d-7df22645849b/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:18 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:18 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/b7578f31-eeaf-485e-b53d-7df22645849b/value {"text": "13522344046", "value": ["1", "3", "5", "2", "2", "3", "4", "4", "0", "4", "6"], "id": "b7578f31-eeaf-485e-b53d-7df22645849b"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:18 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/b7578f31-eeaf-485e-b53d-7df22645849b/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:18 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:20 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[10]/div/div/input[1]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:20 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[10]/div/div/input[1]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:21 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:21 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:21 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/a6b3a98d-fed7-441b-8837-a060e972d343/click {"id": "a6b3a98d-fed7-441b-8837-a060e972d343"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:21 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/a6b3a98d-fed7-441b-8837-a060e972d343/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:21 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:23 开始定位('xpath', '//*[@class="el-time-panel__footer"]/button[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:23 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@class=\"el-time-panel__footer\"]/button[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:23 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:23 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:23 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/7f5f3fc5-7c24-4d40-b9db-d5360f77d0d9/click {"id": "7f5f3fc5-7c24-4d40-b9db-d5360f77d0d9"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:23 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/7f5f3fc5-7c24-4d40-b9db-d5360f77d0d9/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:23 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:24 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[12]/div/div[2]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:24 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[12]/div/div[2]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:24 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:24 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:24 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/0d867e20-1630-4af5-bd65-c79ab8c21634/clear {"id": "0d867e20-1630-4af5-bd65-c79ab8c21634"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:24 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/0d867e20-1630-4af5-bd65-c79ab8c21634/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:24 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:24 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/0d867e20-1630-4af5-bd65-c79ab8c21634/value {"text": "\u5929\u5b89\u95e8", "value": ["\u5929", "\u5b89", "\u95e8"], "id": "0d867e20-1630-4af5-bd65-c79ab8c21634"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:24 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/0d867e20-1630-4af5-bd65-c79ab8c21634/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:24 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:25 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[12]/div/button/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:25 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[12]/div/button/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:25 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:25 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:25 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/6bf0ef89-60e9-44fe-8134-69b2cb6a3a11/click {"id": "6bf0ef89-60e9-44fe-8134-69b2cb6a3a11"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:25 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/6bf0ef89-60e9-44fe-8134-69b2cb6a3a11/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:25 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:26 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:26 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:26 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:26 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:26 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/8792409d-6732-4a02-938b-eaa8e972f37b/click {"id": "8792409d-6732-4a02-938b-eaa8e972f37b"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:26 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/8792409d-6732-4a02-938b-eaa8e972f37b/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:26 Finished Request
+[test_wq.py:64  ] [ INFO] 2021-07-05 14:24:29 开始断言添加线下门店是否成功
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:29 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/screenshot {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:29 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/screenshot HTTP/1.1" 200 137244
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:29 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:29 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'13522344046')]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:29 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:29 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:29 开始定位('xpath', '//*[@id="home-wrap"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:29 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:29 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:29 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:29 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ca9fcd5f-7df2-40e3-bfec-26a286af9952/click {"id": "ca9fcd5f-7df2-40e3-bfec-26a286af9952"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:29 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ca9fcd5f-7df2-40e3-bfec-26a286af9952/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:29 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:31 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[1]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:31 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[1]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:31 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:31 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:31 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5e736ce2-f860-4187-b77a-c5ff76df314f/click {"id": "5e736ce2-f860-4187-b77a-c5ff76df314f"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:31 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5e736ce2-f860-4187-b77a-c5ff76df314f/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:31 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:32 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[1]/div/div/div[2]/span/span/i')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:32 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[1]/div/div/div[2]/span/span/i"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:32 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:32 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:32 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/81d29152-f2e3-4373-a375-5122c89aa574/click {"id": "81d29152-f2e3-4373-a375-5122c89aa574"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:32 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/81d29152-f2e3-4373-a375-5122c89aa574/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:32 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:33 开始定位('xpath', '/html/body/div[3]/div[1]/div[1]/ul/li[3]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:33 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "/html/body/div[3]/div[1]/div[1]/ul/li[3]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:33 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:33 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:33 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/1f312744-fbc1-421c-a095-005207ddeb52/click {"id": "1f312744-fbc1-421c-a095-005207ddeb52"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:33 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/1f312744-fbc1-421c-a095-005207ddeb52/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:33 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:33 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[1]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:33 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[1]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:33 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:33 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:33 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/a07167af-39bf-4c51-889f-0187144637f4/click {"id": "a07167af-39bf-4c51-889f-0187144637f4"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:33 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/a07167af-39bf-4c51-889f-0187144637f4/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:33 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:34 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[2]/div/div[1]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:34 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[2]/div/div[1]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:34 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:34 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:34 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/94c3a847-664a-4aef-a67b-8016e5ad8168/clear {"id": "94c3a847-664a-4aef-a67b-8016e5ad8168"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:34 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/94c3a847-664a-4aef-a67b-8016e5ad8168/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:34 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:34 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/94c3a847-664a-4aef-a67b-8016e5ad8168/value {"text": "\u6d4b\u8bd512142429", "value": ["\u6d4b", "\u8bd5", "1", "2", "1", "4", "2", "4", "2", "9"], "id": "94c3a847-664a-4aef-a67b-8016e5ad8168"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:34 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/94c3a847-664a-4aef-a67b-8016e5ad8168/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:34 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:34 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[3]/div/div[1]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:34 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[3]/div/div[1]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:34 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:34 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:34 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/1652b42d-0567-4958-94d9-229518a8bfd2/clear {"id": "1652b42d-0567-4958-94d9-229518a8bfd2"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:35 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/1652b42d-0567-4958-94d9-229518a8bfd2/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:35 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:35 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/1652b42d-0567-4958-94d9-229518a8bfd2/value {"text": "\u6d4b\u8bd5\u5e97142429", "value": ["\u6d4b", "\u8bd5", "\u5e97", "1", "4", "2", "4", "2", "9"], "id": "1652b42d-0567-4958-94d9-229518a8bfd2"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:35 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/1652b42d-0567-4958-94d9-229518a8bfd2/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:35 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:36 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[7]/div/div[1]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:36 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[7]/div/div[1]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:36 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:36 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:36 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/0af7ddeb-6cbd-4fae-8bd9-593dcfa13f66/clear {"id": "0af7ddeb-6cbd-4fae-8bd9-593dcfa13f66"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:36 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/0af7ddeb-6cbd-4fae-8bd9-593dcfa13f66/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:36 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:36 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/0af7ddeb-6cbd-4fae-8bd9-593dcfa13f66/value {"text": "\u5929\u5b89\u95e8", "value": ["\u5929", "\u5b89", "\u95e8"], "id": "0af7ddeb-6cbd-4fae-8bd9-593dcfa13f66"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:36 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/0af7ddeb-6cbd-4fae-8bd9-593dcfa13f66/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:36 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:36 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[8]/div/div/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:36 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[8]/div/div/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:36 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:36 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:36 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/8ccab80d-b9ad-482b-a0d8-fafb2c332d49/clear {"id": "8ccab80d-b9ad-482b-a0d8-fafb2c332d49"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:36 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/8ccab80d-b9ad-482b-a0d8-fafb2c332d49/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:36 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:36 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/8ccab80d-b9ad-482b-a0d8-fafb2c332d49/value {"text": "\u6d4b\u8bd5\u5927\u4f6c123", "value": ["\u6d4b", "\u8bd5", "\u5927", "\u4f6c", "1", "2", "3"], "id": "8ccab80d-b9ad-482b-a0d8-fafb2c332d49"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:36 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/8ccab80d-b9ad-482b-a0d8-fafb2c332d49/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:36 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:37 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[9]/div/div[1]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[9]/div/div[1]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:37 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/62176403-adcd-4c62-8343-016886f2f041/clear {"id": "62176403-adcd-4c62-8343-016886f2f041"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/62176403-adcd-4c62-8343-016886f2f041/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:37 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/62176403-adcd-4c62-8343-016886f2f041/value {"text": "13522344046", "value": ["1", "3", "5", "2", "2", "3", "4", "4", "0", "4", "6"], "id": "62176403-adcd-4c62-8343-016886f2f041"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/62176403-adcd-4c62-8343-016886f2f041/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:37 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:39 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[10]/div/div/input[1]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:39 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[10]/div/div/input[1]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:39 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:39 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:39 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/6cf4746d-659c-4610-a146-b36ba68ce678/click {"id": "6cf4746d-659c-4610-a146-b36ba68ce678"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:39 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/6cf4746d-659c-4610-a146-b36ba68ce678/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:39 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:41 开始定位('xpath', '//*[@class="el-time-panel__footer"]/button[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:41 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@class=\"el-time-panel__footer\"]/button[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:41 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:41 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:41 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/31906011-439f-4ffb-a579-170dcc320ac6/click {"id": "31906011-439f-4ffb-a579-170dcc320ac6"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:41 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/31906011-439f-4ffb-a579-170dcc320ac6/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:41 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:42 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[12]/div/div[2]/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:42 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[12]/div/div[2]/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:42 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:42 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:42 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/8006adad-9881-4c65-871b-21a02e16ef59/clear {"id": "8006adad-9881-4c65-871b-21a02e16ef59"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:42 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/8006adad-9881-4c65-871b-21a02e16ef59/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:42 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:42 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/8006adad-9881-4c65-871b-21a02e16ef59/value {"text": "\u5929\u5b89\u95e8", "value": ["\u5929", "\u5b89", "\u95e8"], "id": "8006adad-9881-4c65-871b-21a02e16ef59"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:42 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/8006adad-9881-4c65-871b-21a02e16ef59/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:42 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:43 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/form/div[12]/div/button/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:43 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/form/div[12]/div/button/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:43 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:43 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:43 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/dd7376f0-1155-46c2-af40-0d7c0eaf3d55/click {"id": "dd7376f0-1155-46c2-af40-0d7c0eaf3d55"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:43 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/dd7376f0-1155-46c2-af40-0d7c0eaf3d55/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:43 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:44 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:44 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:44 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:44 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:44 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/008dfd6d-9765-446a-aca7-f86421889b5f/click {"id": "008dfd6d-9765-446a-aca7-f86421889b5f"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:44 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/008dfd6d-9765-446a-aca7-f86421889b5f/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:44 Finished Request
+[test_wq.py:64  ] [ INFO] 2021-07-05 14:24:47 开始断言添加线下门店是否成功
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:47 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/screenshot {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:48 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/screenshot HTTP/1.1" 200 137268
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:48 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:48 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'13522344046')]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:48 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:48 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:48 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[2]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:48 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[2]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:48 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:48 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:48 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/08818841-2976-404d-bb3f-1c024d693750/click {"id": "08818841-2976-404d-bb3f-1c024d693750"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:48 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/08818841-2976-404d-bb3f-1c024d693750/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:48 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:50 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[6]/div/div[3]/span/button[2]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:50 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[6]/div/div[3]/span/button[2]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:50 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:50 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:50 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/b5c9f4a8-4986-43d0-8cb0-24a0f0a369cc/click {"id": "b5c9f4a8-4986-43d0-8cb0-24a0f0a369cc"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:50 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/b5c9f4a8-4986-43d0-8cb0-24a0f0a369cc/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:50 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:52 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[3]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:52 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[3]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:52 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:52 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:52 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/74dbfbca-1629-4388-afdd-cc5719165a6c/click {"id": "74dbfbca-1629-4388-afdd-cc5719165a6c"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:52 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/74dbfbca-1629-4388-afdd-cc5719165a6c/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:52 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:55 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[4]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:55 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[4]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:55 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:55 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:55 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/61191b22-e6cc-44f8-8592-504c0bb5b82d/click {"id": "61191b22-e6cc-44f8-8592-504c0bb5b82d"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:55 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/61191b22-e6cc-44f8-8592-504c0bb5b82d/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:55 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:55 开始定位('xpath', '//*[@id="exportDialog"]/div/div/div[2]/div/div[1]/div/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:55 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"exportDialog\"]/div/div/div[2]/div/div[1]/div/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:55 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:55 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:55 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/f5feabf5-cbe8-409b-83e5-eaf6fa200e1c/clear {"id": "f5feabf5-cbe8-409b-83e5-eaf6fa200e1c"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:55 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/f5feabf5-cbe8-409b-83e5-eaf6fa200e1c/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:55 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:55 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/f5feabf5-cbe8-409b-83e5-eaf6fa200e1c/value {"text": "\u6d4b\u8bd5116", "value": ["\u6d4b", "\u8bd5", "1", "1", "6"], "id": "f5feabf5-cbe8-409b-83e5-eaf6fa200e1c"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:55 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/f5feabf5-cbe8-409b-83e5-eaf6fa200e1c/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:55 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:56 开始定位('xpath', '//*[@id="exportDialog"]/div/div/div[3]/span/button[1]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:56 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"exportDialog\"]/div/div/div[3]/span/button[1]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:56 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:56 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:56 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ac28665a-7856-4dc1-a068-cfe92c3f5b00/click {"id": "ac28665a-7856-4dc1-a068-cfe92c3f5b00"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:56 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ac28665a-7856-4dc1-a068-cfe92c3f5b00/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:56 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:58 开始定位('xpath', '//*[@id="topVersionId"]/ul/li[7]/a')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:58 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"topVersionId\"]/ul/li[7]/a"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:58 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:58 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:58 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/1ad6dc6d-8a8c-4deb-af0c-07ca779a6f7f/click {"id": "1ad6dc6d-8a8c-4deb-af0c-07ca779a6f7f"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:58 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/1ad6dc6d-8a8c-4deb-af0c-07ca779a6f7f/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:58 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:24:59 开始定位('xpath', '//*[@id="home-wrap"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:59 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:59 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:59 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:24:59 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/95628120-fa16-4854-8ad4-c359f5a01747/click {"id": "95628120-fa16-4854-8ad4-c359f5a01747"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:24:59 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/95628120-fa16-4854-8ad4-c359f5a01747/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:24:59 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:00 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[5]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:00 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[5]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:00 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:00 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:00 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5f0dc529-5474-4618-bed0-619689fecfff/click {"id": "5f0dc529-5474-4618-bed0-619689fecfff"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:00 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5f0dc529-5474-4618-bed0-619689fecfff/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:00 Finished Request
+[test_wq.py:78  ] [ INFO] 2021-07-05 14:25:01 开始断言导出公众号是否成功
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:01 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/screenshot {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:01 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/screenshot HTTP/1.1" 200 129320
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:01 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:01 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'\u5b8c\u6210')]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:12 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 404 1005
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:12 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:13 开始定位('xpath', '//*[@id="exportDialog"]/div/div/div[2]/div/div[1]/div/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:13 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"exportDialog\"]/div/div/div[2]/div/div[1]/div/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:13 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:13 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:13 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/17ab8e48-849a-4cf1-b846-b873380d0cf3/clear {"id": "17ab8e48-849a-4cf1-b846-b873380d0cf3"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:13 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/17ab8e48-849a-4cf1-b846-b873380d0cf3/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:13 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:13 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/17ab8e48-849a-4cf1-b846-b873380d0cf3/value {"text": "\u6d4b\u8bd5117", "value": ["\u6d4b", "\u8bd5", "1", "1", "7"], "id": "17ab8e48-849a-4cf1-b846-b873380d0cf3"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:13 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/17ab8e48-849a-4cf1-b846-b873380d0cf3/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:13 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:15 开始定位('xpath', '//*[@id="exportDialog"]/div/div/div[3]/span/button[1]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:15 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"exportDialog\"]/div/div/div[3]/span/button[1]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:15 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:15 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:15 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/193e5057-140a-47bc-97a6-7ca543485734/click {"id": "193e5057-140a-47bc-97a6-7ca543485734"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:15 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/193e5057-140a-47bc-97a6-7ca543485734/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:15 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:17 开始定位('xpath', '//*[@id="topVersionId"]/ul/li[7]/a')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:17 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"topVersionId\"]/ul/li[7]/a"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:17 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:17 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:17 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5f2a973a-0e9c-4ed9-afc5-9db8fcd9c987/click {"id": "5f2a973a-0e9c-4ed9-afc5-9db8fcd9c987"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:17 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5f2a973a-0e9c-4ed9-afc5-9db8fcd9c987/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:17 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:19 开始定位('xpath', '//*[@id="home-wrap"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:19 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:19 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:19 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:19 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/a29df0cb-642a-4a83-9b64-d0f4de0b59c4/click {"id": "a29df0cb-642a-4a83-9b64-d0f4de0b59c4"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:19 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/a29df0cb-642a-4a83-9b64-d0f4de0b59c4/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:19 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:20 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[6]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:20 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[6]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:20 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:20 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:20 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5bc98f9a-d42d-4500-801b-a757f325e7e9/click {"id": "5bc98f9a-d42d-4500-801b-a757f325e7e9"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:20 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5bc98f9a-d42d-4500-801b-a757f325e7e9/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:20 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:21 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[10]/div/div/div[2]/div/div[2]/div[1]/div/label[1]/span[1]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:21 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[10]/div/div/div[2]/div/div[2]/div[1]/div/label[1]/span[1]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:21 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:21 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:21 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/2d238b73-db20-426e-90ed-d03d96088fcc/click {"id": "2d238b73-db20-426e-90ed-d03d96088fcc"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:21 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/2d238b73-db20-426e-90ed-d03d96088fcc/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:21 Finished Request
+[test_wq.py:90  ] [ INFO] 2021-07-05 14:25:22 开始断言导出小程序是否成功
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:22 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/screenshot {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:22 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/screenshot HTTP/1.1" 200 112236
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:22 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:22 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'\u5b8c\u6210')]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:32 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 404 1005
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:32 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:33 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[10]/div/div/div[2]/div/div[2]/div[2]/div/textarea')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:33 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[10]/div/div/div[2]/div/div[2]/div[2]/div/textarea"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:33 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:33 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:33 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ec68563d-7278-4bdd-9b2b-0bcfe54bee22/clear {"id": "ec68563d-7278-4bdd-9b2b-0bcfe54bee22"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:33 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ec68563d-7278-4bdd-9b2b-0bcfe54bee22/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:33 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:33 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ec68563d-7278-4bdd-9b2b-0bcfe54bee22/value {"text": "456", "value": ["4", "5", "6"], "id": "ec68563d-7278-4bdd-9b2b-0bcfe54bee22"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:33 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ec68563d-7278-4bdd-9b2b-0bcfe54bee22/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:33 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:34 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[10]/div/div/div[3]/span/button[2]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:34 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[10]/div/div/div[3]/span/button[2]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:34 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:34 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:34 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ba0a5c5d-3561-420d-b7ed-6554231f2e09/click {"id": "ba0a5c5d-3561-420d-b7ed-6554231f2e09"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:34 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ba0a5c5d-3561-420d-b7ed-6554231f2e09/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:34 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:35 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[7]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:35 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[7]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:35 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:35 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:35 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/1bf965ac-12ce-409b-a434-401d64d5db47/click {"id": "1bf965ac-12ce-409b-a434-401d64d5db47"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:35 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/1bf965ac-12ce-409b-a434-401d64d5db47/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:35 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:35 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/div/div/div[3]/button[1]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:35 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/div/div/div[3]/button[1]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:36 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:36 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:36 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ddf4fb83-b91a-4e83-bc53-6fa1a3aded89/click {"id": "ddf4fb83-b91a-4e83-bc53-6fa1a3aded89"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:36 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ddf4fb83-b91a-4e83-bc53-6fa1a3aded89/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:36 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:37 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/div[1]/div/input')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/div[1]/div/input"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:37 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/66a061b0-ca28-4d4f-83f5-b100262197aa/clear {"id": "66a061b0-ca28-4d4f-83f5-b100262197aa"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/66a061b0-ca28-4d4f-83f5-b100262197aa/clear HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:37 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/66a061b0-ca28-4d4f-83f5-b100262197aa/value {"text": "4567", "value": ["4", "5", "6", "7"], "id": "66a061b0-ca28-4d4f-83f5-b100262197aa"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/66a061b0-ca28-4d4f-83f5-b100262197aa/value HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:37 Finished Request
+[wq_base.py:13  ] [ INFO] 2021-07-05 14:25:37 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[2]/span')的元素
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[2]/span"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:37 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/529e5ef9-1283-43bd-bcac-c1dc35783707/click {"id": "529e5ef9-1283-43bd-bcac-c1dc35783707"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/529e5ef9-1283-43bd-bcac-c1dc35783707/click HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:37 Finished Request
+[test_wq.py:103 ] [ INFO] 2021-07-05 14:25:37 开始断言banner名称是否成功
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:37 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/screenshot {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:37 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/screenshot HTTP/1.1" 200 154676
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:37 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:37 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'789')]"}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:37 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:37 Finished Request
+[remote_connection.py:388 ] [DEBUG] 2021-07-05 14:25:37 DELETE http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef {}
+[connectionpool.py:452 ] [DEBUG] 2021-07-05 14:25:37 http://127.0.0.1:52859 "DELETE /session/56bfab8373d4ba97ce5d52f50011ebef HTTP/1.1" 200 14
+[remote_connection.py:440 ] [DEBUG] 2021-07-05 14:25:37 Finished Request

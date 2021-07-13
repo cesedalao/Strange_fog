@@ -1,0 +1,183 @@
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[2]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[2]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/08818841-2976-404d-bb3f-1c024d693750/click {"id": "08818841-2976-404d-bb3f-1c024d693750"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/08818841-2976-404d-bb3f-1c024d693750/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[6]/div/div[3]/span/button[2]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[6]/div/div[3]/span/button[2]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/b5c9f4a8-4986-43d0-8cb0-24a0f0a369cc/click {"id": "b5c9f4a8-4986-43d0-8cb0-24a0f0a369cc"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/b5c9f4a8-4986-43d0-8cb0-24a0f0a369cc/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[3]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[3]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/74dbfbca-1629-4388-afdd-cc5719165a6c/click {"id": "74dbfbca-1629-4388-afdd-cc5719165a6c"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/74dbfbca-1629-4388-afdd-cc5719165a6c/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[4]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[4]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/61191b22-e6cc-44f8-8592-504c0bb5b82d/click {"id": "61191b22-e6cc-44f8-8592-504c0bb5b82d"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/61191b22-e6cc-44f8-8592-504c0bb5b82d/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="exportDialog"]/div/div/div[2]/div/div[1]/div/input')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"exportDialog\"]/div/div/div[2]/div/div[1]/div/input"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/f5feabf5-cbe8-409b-83e5-eaf6fa200e1c/clear {"id": "f5feabf5-cbe8-409b-83e5-eaf6fa200e1c"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/f5feabf5-cbe8-409b-83e5-eaf6fa200e1c/clear HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/f5feabf5-cbe8-409b-83e5-eaf6fa200e1c/value {"text": "\u6d4b\u8bd5116", "value": ["\u6d4b", "\u8bd5", "1", "1", "6"], "id": "f5feabf5-cbe8-409b-83e5-eaf6fa200e1c"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/f5feabf5-cbe8-409b-83e5-eaf6fa200e1c/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="exportDialog"]/div/div/div[3]/span/button[1]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"exportDialog\"]/div/div/div[3]/span/button[1]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ac28665a-7856-4dc1-a068-cfe92c3f5b00/click {"id": "ac28665a-7856-4dc1-a068-cfe92c3f5b00"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ac28665a-7856-4dc1-a068-cfe92c3f5b00/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="topVersionId"]/ul/li[7]/a')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"topVersionId\"]/ul/li[7]/a"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/1ad6dc6d-8a8c-4deb-af0c-07ca779a6f7f/click {"id": "1ad6dc6d-8a8c-4deb-af0c-07ca779a6f7f"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/1ad6dc6d-8a8c-4deb-af0c-07ca779a6f7f/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/95628120-fa16-4854-8ad4-c359f5a01747/click {"id": "95628120-fa16-4854-8ad4-c359f5a01747"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/95628120-fa16-4854-8ad4-c359f5a01747/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[5]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[5]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5f0dc529-5474-4618-bed0-619689fecfff/click {"id": "5f0dc529-5474-4618-bed0-619689fecfff"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5f0dc529-5474-4618-bed0-619689fecfff/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:test_wq.py:78 开始断言导出公众号是否成功
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/screenshot {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/screenshot HTTP/1.1" 200 129320
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'\u5b8c\u6210')]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 404 1005
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="exportDialog"]/div/div/div[2]/div/div[1]/div/input')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"exportDialog\"]/div/div/div[2]/div/div[1]/div/input"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/17ab8e48-849a-4cf1-b846-b873380d0cf3/clear {"id": "17ab8e48-849a-4cf1-b846-b873380d0cf3"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/17ab8e48-849a-4cf1-b846-b873380d0cf3/clear HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/17ab8e48-849a-4cf1-b846-b873380d0cf3/value {"text": "\u6d4b\u8bd5117", "value": ["\u6d4b", "\u8bd5", "1", "1", "7"], "id": "17ab8e48-849a-4cf1-b846-b873380d0cf3"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/17ab8e48-849a-4cf1-b846-b873380d0cf3/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="exportDialog"]/div/div/div[3]/span/button[1]')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"exportDialog\"]/div/div/div[3]/span/button[1]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/193e5057-140a-47bc-97a6-7ca543485734/click {"id": "193e5057-140a-47bc-97a6-7ca543485734"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/193e5057-140a-47bc-97a6-7ca543485734/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="topVersionId"]/ul/li[7]/a')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"topVersionId\"]/ul/li[7]/a"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5f2a973a-0e9c-4ed9-afc5-9db8fcd9c987/click {"id": "5f2a973a-0e9c-4ed9-afc5-9db8fcd9c987"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5f2a973a-0e9c-4ed9-afc5-9db8fcd9c987/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/div/aside/ul/div/ul/div[1]/li/ul/li/ul/li[2]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/a29df0cb-642a-4a83-9b64-d0f4de0b59c4/click {"id": "a29df0cb-642a-4a83-9b64-d0f4de0b59c4"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/a29df0cb-642a-4a83-9b64-d0f4de0b59c4/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[6]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[6]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/5bc98f9a-d42d-4500-801b-a757f325e7e9/click {"id": "5bc98f9a-d42d-4500-801b-a757f325e7e9"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/5bc98f9a-d42d-4500-801b-a757f325e7e9/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[10]/div/div/div[2]/div/div[2]/div[1]/div/label[1]/span[1]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[10]/div/div/div[2]/div/div[2]/div[1]/div/label[1]/span[1]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/2d238b73-db20-426e-90ed-d03d96088fcc/click {"id": "2d238b73-db20-426e-90ed-d03d96088fcc"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/2d238b73-db20-426e-90ed-d03d96088fcc/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:test_wq.py:90 开始断言导出小程序是否成功
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/screenshot {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/screenshot HTTP/1.1" 200 112236
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'\u5b8c\u6210')]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 404 1005
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[10]/div/div/div[2]/div/div[2]/div[2]/div/textarea')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[10]/div/div/div[2]/div/div[2]/div[2]/div/textarea"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ec68563d-7278-4bdd-9b2b-0bcfe54bee22/clear {"id": "ec68563d-7278-4bdd-9b2b-0bcfe54bee22"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ec68563d-7278-4bdd-9b2b-0bcfe54bee22/clear HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ec68563d-7278-4bdd-9b2b-0bcfe54bee22/value {"text": "456", "value": ["4", "5", "6"], "id": "ec68563d-7278-4bdd-9b2b-0bcfe54bee22"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ec68563d-7278-4bdd-9b2b-0bcfe54bee22/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[10]/div/div/div[3]/span/button[2]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[10]/div/div/div[3]/span/button[2]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ba0a5c5d-3561-420d-b7ed-6554231f2e09/click {"id": "ba0a5c5d-3561-420d-b7ed-6554231f2e09"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ba0a5c5d-3561-420d-b7ed-6554231f2e09/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[7]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[7]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/1bf965ac-12ce-409b-a434-401d64d5db47/click {"id": "1bf965ac-12ce-409b-a434-401d64d5db47"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/1bf965ac-12ce-409b-a434-401d64d5db47/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/div/div/div[3]/button[1]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/div/div/div[3]/button[1]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/ddf4fb83-b91a-4e83-bc53-6fa1a3aded89/click {"id": "ddf4fb83-b91a-4e83-bc53-6fa1a3aded89"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/ddf4fb83-b91a-4e83-bc53-6fa1a3aded89/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[2]/div[1]/div/input')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[2]/div[1]/div/input"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/66a061b0-ca28-4d4f-83f5-b100262197aa/clear {"id": "66a061b0-ca28-4d4f-83f5-b100262197aa"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/66a061b0-ca28-4d4f-83f5-b100262197aa/clear HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/66a061b0-ca28-4d4f-83f5-b100262197aa/value {"text": "4567", "value": ["4", "5", "6", "7"], "id": "66a061b0-ca28-4d4f-83f5-b100262197aa"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/66a061b0-ca28-4d4f-83f5-b100262197aa/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:wq_base.py:13 开始定位('xpath', '//*[@id="home-wrap"]/section/section/main/div/div[3]/button[2]/span')的元素
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[@id=\"home-wrap\"]/section/section/main/div/div[3]/button[2]/span"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element/529e5ef9-1283-43bd-bcac-c1dc35783707/click {"id": "529e5ef9-1283-43bd-bcac-c1dc35783707"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element/529e5ef9-1283-43bd-bcac-c1dc35783707/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:test_wq.py:103 开始断言banner名称是否成功
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/screenshot {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "GET /session/56bfab8373d4ba97ce5d52f50011ebef/screenshot HTTP/1.1" 200 154676
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef/element {"using": "xpath", "value": "//*[contains(text(),'789')]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "POST /session/56bfab8373d4ba97ce5d52f50011ebef/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:52859/session/56bfab8373d4ba97ce5d52f50011ebef {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:52859 "DELETE /session/56bfab8373d4ba97ce5d52f50011ebef HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
